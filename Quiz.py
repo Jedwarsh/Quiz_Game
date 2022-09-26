@@ -10,14 +10,14 @@ NumberOfPoints=0
 print("Okay! Let's play :)")	
 
 answear = input("What does CPU stand for? ")
-if answear.lower == "central processing unit":
+if answear == "central processing unit":
 	print("Correct!")
 	NumberOfPoints+=1
 else:
 	print("Incorrect!")
 
 answear = input("What does GPU stand for? ")
-if answear.lower == "graphics processing unit":
+if answear == "graphics processing unit":
 	print("Correct!")
 	NumberOfPoints+=1
 else:
@@ -31,7 +31,7 @@ else:
 	print("Incorrect!")
 
 answear = input("What does PSU stand for? ")
-if answear.lower == "power supply unit":
+if answear == "power supply unit":
 	print("Correct!")
 	NumberOfPoints+=1
 else:
