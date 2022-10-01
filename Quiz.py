@@ -28,7 +28,7 @@ while True:
 	playing = input("Would you like to answear another question?").lower()
 	if playing != "yes":
 		print("You got " + str(NumberOfPoints) + " questions correct!  \nThanks for playing :)")
-		break()
+		break
 
 """	
 answear = input("What does CPU stand for? ").lower()
